@@ -1,0 +1,14 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+body {
+    max-width: 1000px;
+    font-family: rob;
+    background-color: rgb(201, 197, 212);
+    font-family: 'Antonio', sans-serif;
+}

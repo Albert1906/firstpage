@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+
+    <title>firstpage</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1>Witajcie przyszli <span class="header__span">Programiści !</span></h1>
+
+
+    </header>
+    <nav class="navigation">
+        <ul class="navigation__list">
+            <li class="navigation__item"><a class="navigation__link" href="#O-mnie">O mnie</a></li>
+
+            <li class="navigation__item"><a class="navigation__link" href="#Hobby">Hobby</a></li>
+
+            <li class="navigation__item"><a class="navigation__link" href="#Ciekawostki">Ciekawostki</a></li>
+
+            <li class="navigation__item"><a class="navigation__link" href="#Tabela">Tabela</a></li>
+        </ul>
+    </nav>
+    <main>
+
+        <section class="sectionMe">
+            <h2>Mam na imię Albert</h2>
+            <img class="sectionMe__photo jsPhotoCptAmeryka"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf4SF5_GzEkmSrwtQmHozpCs-gdYblgRqMOw&usqp=CAU"
+                alt="kapitan ameryka zdjecie zaciągnięte z neta na razie nie mam swojego">
+
+            <img class="sectionMe__photo jsPhotoLego sectionMe__hidden"
+                src="https://cdn.pixabay.com/photo/2018/08/01/08/23/captain-3576757__480.jpg"
+                alt="lego kapitana ameryki">
+            <p><button class="sectionMe__button">Zmień zdjęcie</button></p>
+        </section>
+
+
+        <section class="section">
+            <h2 class="section__aboutMe" id="O-mnie">Parę słów o mnie</h2>
+            <p>Pochodzę z miasta Wadowice gdzie urodził się
+                <strong>Jan Paweł
+                    II.</strong>
+                Miasto leży na poludniu Polski.Na codzień pracuję w branży logistycznej, lecz od jakiegoś czasu
+                chodził
+                mi
+                po
+                głowie pomysł aby zapisać się na kurs <b>front-end developera.</b><br>Bardzo się cieszę że jestem
+                tutaj
+                z
+                <b>Wami !.</b>
+            </p>
+        </section>
+
+        <section class="section">
+            <h2 class="section__aboutMe" id="Hobby">Moje hobby</h2>
+            <p>W wolnych chwilach lubię spędzać czas na rolkach.Interesuje mnie technika <i> freestyle slalom</i>
+                jak i
+                również<i> freeride</i>. Lubię spacerować również w chmurach wiec astronomia też leży w kręgu moich
+                zainteresowań.</p>
+        </section>
+
+        <section class="section">
+            <h3 class="section__aboutMe" id="Ciekawostki">Ciekawostki</h3>
+            <p>Przepłynięcie pełnej długości rzeki Mississippi zajmuje 68 dni. 4 lipca 2002 r. Pływak maratonowy
+                Martin
+                Steel
+                rozpoczął podróż w północnej Minnesocie, płynąc rzeką Mississippi o długości 2348 mil, starając się
+                być
+                pierwszą
+                osobą, która płynie na całej jej długości. 9 września osiągnął swój cel, a po niesamowitej
+                68-dniowej
+                podróży
+                znalazł się w Zatoce Meksykańskiej w Luizjanie. Płynął około 34,5 mil dziennie.</p>
+        </section>
+
+        <div class="tableConteiner">
+            <table id="Tabela" class="section__table">
+                <caption class="section__tableCaption">Układ Słoneczny</caption>
+                <tr class="section__tableRow">
+                    <th class="section__tableCell section__tableHeader" scope="col">Planeta</th>
+                    <th class="section__tableCell section__tableHeader" scope="col">Średnia odległość od Słońca (mln
+                        km)
+                    </th>
+                    <th class="section__tableCell section__tableHeader" scope="col">Średnica (km)</th>
+                </tr>
+                <tr class="section__tableRow">
+                    <th class="section__tableCell section__tableHeader" scope="row">Merkury</th>
+                    <td class="section__tableCell">57,740</td>
+                    <td class="section__tableCell">4,878</td>
+                </tr>
+                <tr class="section__tableRow">
+                    <th class="section__tableCell section__tableHeader" scope="row">Wenus</th>
+                    <td class="section__tableCell">108,141</td>
+                    <td class="section__tableCell">12,104</td>
+                </tr>
+                <tr class="section__tableRow">
+                    <th class="section__tableCell section__tableHeader" scope="row">Ziemia</th>
+                    <td class="section__tableCell">149,504</td>
+                    <td class="section__tableCell">12,756</td>
+                </tr>
+                <tr class="section__tableRow">
+                    <th class="section__tableCell section__tableHeader" scope="row">Mars</th>
+                    <td class="section__tableCell">227,798</td>
+                    <td class="section__tableCell">6,860</td>
+                </tr>
+                <tr class="section__tableRow">
+                    <th class="section__tableCell section__tableHeader" scope="row">Jowisz</th>
+                    <td class="section__tableCell">777,840</td>
+                    <td class="section__tableCell">143,640</td>
+                </tr>
+
+                <tr class="section__tableRow">
+                    <th class="section__tableCell section__tableHeader" scope="row">Saturn</th>
+                    <td class="section__tableCell">1426,100</td>
+                    <td class="section__tableCell">120,570</td>
+                </tr>
+                <tr class="section__tableRow">
+                    <th class="section__tableCell section__tableHeader" scope="row">Uran</th>
+                    <td class="section__tableCell">2867,830</td>
+                    <td class="section__tableCell">57,070</td>
+                </tr>
+                <tr class="section__tableRow">
+                    <th class="section__tableCell section__tableHeader" scope="row">Neptun</th>
+                    <td class="section__tableCell">>4493,650</td>
+                    <td class="section__tableCell">49,670</td>
+                </tr>
+
+            </table>
+
+            </table>
+
+        </div>
+
+        <div class="sectionHeaderList">
+            <p>Lista galaktyk</p>
+            <ul>
+                <li class="sectionHeaderList__listItem">galaktyka Galaxy</li>
+                <li class="sectionHeaderList__listItem">galaktyka Andromedy</li>
+                <li class="sectionHeaderList__listItem">galaktyka Trójkąta</li>
+                <li class="sectionHeaderList__listItem">galaktyka Cyrkla</li>
+                <li class="sectionHeaderList__listItem">galaktyka Czarne Oko</li>
+                <li class="sectionHeaderList__listItem">galaktyka Bodeo</li>
+                <li class="sectionHeaderList__listItem">galaktyka Cygaro</li>
+            </ul>
+            <p>i wiele więcej. Jeśli masz ochotę przeczytaj<a class="sectionHeaderList__galaxyLink"
+                    rel="noreferrer noopener" target="_blank"
+                    href="https://sites.google.com/site/naszagalaktyka2lo/inne-galaktyki">Więcej o
+                    galaktykach</a></p>
+        </div>
+
+
+
+        <section class="sectionKontakt">
+            <p class="sectionKontakt__buttonContact">
+                <button class="sectionKontakt__contactButtonNumber">Kontakt</button>
+            </p>
+            <p class="sectionKontakt__phoneNumber sectionMe__hidden">tel.877-234-567</p>
+
+        </section>
+
+
+
+    </main>
+
+    <footer class="footer"></footer>
+    <p class="footer__paragraph">&copy; Sztuka Adaptacji 2021</p>
+    </footer>
+
+</body>
+
+</html>

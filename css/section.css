@@ -1,0 +1,50 @@
+.sectionMe__hidden {
+    display: none;
+}
+
+.sectionMe {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.sectionMe__photo {
+    width: 280px;
+    height: 280px;
+    border-radius: 25px 50px;
+}
+
+.sectionMe__button {
+    text-align: center;
+    background: rgb(179, 178, 169);
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 3px solid rgba(66, 71, 82, 0.849);
+    color: black;
+    font-family: 'Antonio';
+    font-size: medium;
+}
+
+.section {
+    margin-left: 100px;
+    margin-bottom: 70px;
+    border-bottom: 1px solid black;
+}
+
+.section__aboutMe {
+    padding-top: 50px;
+    color: rgb(53, 0, 0)
+}
+
+.sectionKontakt__buttonContact {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.sectionKontakt__contactButtonNumber {
+    width: 100px;
+    height: 70px;
+    background: darkgray;
+    border: 2px solid rgb(53, 46, 46);
+    border-radius: 35px;
+    border-bottom-left-radius: 0px;
+}

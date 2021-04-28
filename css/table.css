@@ -1,0 +1,78 @@
+.tableConteiner {
+    overflow-x: auto;
+    margin-left: 100px;
+}
+
+.section__tableCaption {
+    text-align: left;
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+
+.section__table {
+    border-collapse: collapse;
+    width: 100%;
+    font-weight: initial;
+}
+
+.section__tableRow:nth-child(even) {
+    background: rgb(207, 198, 118);
+}
+
+.section__tableRow:hover {
+    background: rgb(189, 177, 73);
+}
+
+.section__tableCell {
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.section__tableHeader {
+    background-color: rgb(201, 191, 104);
+    color: black;
+    font-weight: normal;
+}
+
+.section__tableHeader:hover {
+    font-size: 17px;
+}
+
+.sectionHeaderList {
+    margin-left: 100px;
+    padding-top: 30px;
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: rgb(201, 191, 104);
+    margin-top: 40px;
+    border-radius: 30px 70px 70px 30px;
+    border: 3px ridge rgb(90, 86, 50);
+    -webkit-box-shadow: 18px -15px 28px 2px rgba(216, 236, 93, 0.79);
+    box-shadow: 18px -15px 28px 2px rgba(216, 236, 93, 0.79);
+}
+
+.sectionHeaderList__listItem {
+    margin: 7px;
+}
+
+.sectionHeaderList__galaxyLink {
+    text-decoration: none;
+    background-color: rgba(0, 48, 192, 0.829);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 7px 14px;
+    border-radius: 40px;
+    color: white;
+    font-style: italic;
+    display: inline-block;
+}
+
+.sectionHeaderList__galaxyLink:focus {
+    outline: 3px solid black;
+}
+
+.sectionHeaderList__galaxyLink:hover {
+    background-color: rgba(0, 39, 155, 0.829);
+}

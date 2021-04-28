@@ -1,0 +1,8 @@
+.footer__paragraph {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 10px 20px;
+    background: rgba(16, 43, 16, 0.452);
+    border-radius: 30px;
+}

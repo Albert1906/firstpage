@@ -35,12 +35,12 @@
     color: rgb(53, 0, 0)
 }
 
-.sectionKontakt__buttonContact {
+.sectionContact__buttonContact {
     text-align: center;
     margin-top: 60px;
 }
 
-.sectionKontakt__contactButtonNumber {
+.sectionContact__contactButtonNumber {
     width: 100px;
     height: 70px;
     background: darkgray;

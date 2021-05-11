@@ -36,11 +36,8 @@
     font-weight: normal;
 }
 
-.section__tableHeader:hover {
-    font-size: 17px;
-}
-
 .sectionHeaderList {
+    overflow-x: auto;
     margin-left: 100px;
     padding-top: 30px;
     padding-left: 20px;
@@ -67,6 +64,7 @@
     color: white;
     font-style: italic;
     display: inline-block;
+    max-width: auto;
 }
 
 .sectionHeaderList__galaxyLink:focus {
